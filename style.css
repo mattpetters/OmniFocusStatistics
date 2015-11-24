@@ -1,0 +1,113 @@
+
+* {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+/* general */
+a {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#333;
+	text-decoration:none;
+}
+
+/* body */
+body {
+	background:#cc99ff;
+	color:#ffffff;
+	font:0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+}
+
+#ofLogo {
+	height: 150px;
+	width: 150px;
+}
+
+/* header */
+#header {
+	border-bottom:1px solid #999;
+	height:80px;
+	margin:0 auto;
+	width:751px;
+}
+#header h1 {
+	font-size:300%;
+	letter-spacing:-3px;
+	text-align:right;
+	padding:5px;
+	margin-bottom:-20px;
+}
+#header h2 {
+	font-size:200%;
+	letter-spacing:-2px;
+	text-align:right;
+}
+
+/* navigation */
+#navigation {
+	border-right:1px solid #ffffff;
+	margin:0 auto;
+	width:750px;
+	height:50px;
+	list-style:none;
+}
+#navigation li {
+	border-left:1px solid #ffffff;
+	float:left;
+	width:124px;
+	list-style:none;
+}
+#navigation a {
+	display:block;
+	line-height:50px;
+	text-align:center;
+}
+#navigation a:hover {
+	background:#e3e3e3;
+	color:#555;
+}
+#navigation .active {
+}
+
+/* content */
+#content {
+	height:auto;
+	margin:0 auto;
+	padding:0 0 20px;
+	width:751px;
+}
+#content h1 {
+	border-bottom:1px dashed #999;
+	font-size:1.8em;
+	padding:20px 0 0;
+}
+#content p {
+	padding:20px 20px 0;
+}
+
+/* footer */
+#footer {
+	border-top:1px solid #999; 
+	height:50px;
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	width:751px;
+}
+
+#central-content {
+/*    position: relative; 
+    top: -30px;
+    left: 200px;*/
+}
+
+#right-content {
+/*    position: relative; 
+    top: -90px;
+    left: 450px;*/
+}
